@@ -8,6 +8,32 @@ package com.utn.logica.appfacturacion;
  *
  * @author Elian L
  */
-public class ClienOcasional {
+public class ClienOcasional extends Cliente{
+    private String direcion;
+
+    public ClienOcasional(){
+        super();
+        this.direcion = "";      
+    }
     
+    public ClienOcasional(String direcion, String nombre, String sexo) {
+        super(nombre, sexo);
+        this.direcion = direcion;
+    }
+    
+    @Override
+    public String toString() {
+        
+        return super.toString()+ 
+                "ClienOcasional \n" + "direcion: " + direcion;
+    }
+
+    public String getDirecion() {
+        return direcion;
+    }
+
+    public void setDirecion(String direcion) {
+        this.direcion = direcion;
+    }
+
 }
