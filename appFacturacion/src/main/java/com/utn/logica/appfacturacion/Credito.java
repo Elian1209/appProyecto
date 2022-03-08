@@ -10,4 +10,12 @@ package com.utn.logica.appfacturacion;
  */
 public class Credito {
     
+   protected String noTarjetaCredito;
+   protected String tipoTarjeta;
+   
+   
+   
+   
+   
+    
 }

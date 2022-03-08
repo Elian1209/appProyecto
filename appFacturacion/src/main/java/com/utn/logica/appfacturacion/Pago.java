@@ -9,5 +9,20 @@ package com.utn.logica.appfacturacion;
  * @author Elian L
  */
 public class Pago {
+
+    protected float monto;
+
+    public Pago(float monto) {
+        this.monto = monto;
+    }
     
+    
+
+    public String montoLetras() {
+        String letras = "";
+
+        return letras;
+
+    }
+
 }
