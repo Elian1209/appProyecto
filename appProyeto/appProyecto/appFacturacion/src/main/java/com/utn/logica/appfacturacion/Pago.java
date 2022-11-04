@@ -9,5 +9,7 @@ package com.utn.logica.appfacturacion;
  * @author Elian L
  */
 public class Pago {
+
+
     
 }
